@@ -17,7 +17,7 @@ de desconto e o frete, e cada componente será responsável por uma parte dessa 
 - A inversão de controle é quando a classe que tem uma dependência não tem o controle sobre ela e esse controle é
   delegado para terceiros como:
     - Framework ou
-    - Para o próprio main quando instânciamos e passamos como argumento do parâmetro do construtor da classe que tem
+    - Para o próprio main quando instânciamos e passamos um argumento para o parâmetro do construtor da classe que tem
       dependencia.
 
     E isso é feito para que ao trocar a dependência não seja preciso mexer no componente que tem dependencia 
